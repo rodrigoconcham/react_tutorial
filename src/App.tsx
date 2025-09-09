@@ -1,9 +1,6 @@
-import ListGroup from "./components/ListGroup"
-
+import Alert from "./components/Alert";
 function App() {
-  return <div> <ListGroup /></div>;
+  return <div className="alert alert-primary"> Alert </div>;
 }
 
-export default App; 
-
-
+export default App;
